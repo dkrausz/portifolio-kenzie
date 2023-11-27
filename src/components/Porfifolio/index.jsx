@@ -12,12 +12,14 @@ const Portifolio = () => {
  
   return (
     <>
+    <main>
       <Header />
       <Banner />
       <AboutMe />
       <TechnologiesList tec={technologies}/>
       <ProjectsList props={projects} />
       <Footer />
+    </main>
     </>
   );
 };

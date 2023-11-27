@@ -1,0 +1,32 @@
+
+.banner__container{
+    width: 100%;
+    max-width:60rem; 
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-block: 4rem;
+   
+}
+.banner__contains{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner__user{
+    font-size: var(--font-size-6);
+    color: var(--color-primary);
+    font-weight:var(--font-weight-4);   
+    margin-bottom: 0.56rem;
+}
+
+.banner__title{
+    width: 50%;
+    font-size: var(--font-size-1);
+    font-weight:var(--font-weight-1);
+    
+}
+.banner__container>img{
+    width: 27rem;
+}

@@ -1,0 +1,22 @@
+.aboutMe__container{
+
+    width: 100%;
+    max-width: 60rem;
+    height: 10rem;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-block: 7rem;
+}
+
+.aboutMe__title{
+    font-size: var(--font-size-2);
+    font-weight: var(--font-weight-1);
+}
+
+.aboutMe__text{
+    width: 70%;
+    font-size: var(--font-size-4);
+    font-weight: var(--font-weight-4);
+    line-height: 1.875rem;
+}

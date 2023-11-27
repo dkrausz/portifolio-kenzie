@@ -1,9 +1,8 @@
 @import url(./reset.css);
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
 :root{
     --color-primary: #6880FF;
-    --color-primary-hoover: #7C91FF;
+    --color-primary-hover: #7C91FF;
 
     --font-primary:'Inter', sans-serif;
 
@@ -11,19 +10,40 @@
     --color-grey-2: #121214;
     --color-grey-3: #ffffff;
    
-    --font-weight-1:700;
-    --font-weight-2:600;
-    --font-weight-3:400;
+    --font-weight-1:800;
+    --font-weight-2:700;
+    --font-weight-3:600;
+    --font-weight-4:400;
 
     --font-size-1:48px;
     --font-size-2:40px;
     --font-size-3:22px;
     --font-size-4:16px;
-    --font-size-5:14px;
+    --font-size-5:15px;
+    --font-size-6:14px;
         
 }
 
 *{
     background-color: var(--color-grey-1);
     color: var(--color-grey-3);
+    font-family: var(--font-primary);
+}
+
+button{
+    background-color: var(--color-primary);
+    height: 2.43rem;
+    width: 7.12rem;
+    border-radius: 0.75rem;
+
+}
+button:hover{
+    background-color: var(--color-primary-hover);
+}
+a{
+    color: #7B61FF;
+}
+a:hover{
+    text-decoration: underline;
+    color: var(--color-primary-hover);
 }
