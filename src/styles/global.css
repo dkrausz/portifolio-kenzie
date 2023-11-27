@@ -1,0 +1,29 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root{
+    --color-primary: #6880FF;
+    --color-primary-hoover: #7C91FF;
+
+    --font-primary:'Inter', sans-serif;
+
+    --color-grey-1: #000000;
+    --color-grey-2: #121214;
+    --color-grey-3: #ffffff;
+   
+    --font-weight-1:700;
+    --font-weight-2:600;
+    --font-weight-3:400;
+
+    --font-size-1:48px;
+    --font-size-2:40px;
+    --font-size-3:22px;
+    --font-size-4:16px;
+    --font-size-5:14px;
+        
+}
+
+*{
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-3);
+}

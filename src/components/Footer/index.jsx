@@ -1,6 +1,7 @@
 import WhastAppLogo from "../../assets/whatsapp-icon.png"
 import LinkedinLogo from "../../assets/linkedin-icon.png"
 import GitHubLogo from "../../assets/github-icon.png"
+import {user} from "../../data/user.js"
 
 const Footer = () => {
   return (
@@ -11,7 +12,7 @@ const Footer = () => {
         <img src={LinkedinLogo} alt="Linkedin" />
         <img src={GitHubLogo} alt="GitHub" />
       </div>
-      <p>Todos os direitos reservados - Danilo Krausz</p>
+      <p>Todos os direitos reservados - {user}</p>
     </footer>
   );
 };
