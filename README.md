@@ -49,13 +49,13 @@ Cada componente é responsável por uma seção do layout, facilitando manutenç
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/dkrausz/control-finance.git
+   git clone https://github.com/dkrausz/portifolio-kenzie.git
    ```
 
 2. Abra a pasta do projeto:
 
    ```bash
-    cd control-finance
+    cd portifolio-kenzie
    ```
 
 3. Execute o comando
@@ -67,7 +67,7 @@ Cada componente é responsável por uma seção do layout, facilitando manutenç
 ## 🔗 Acesso ao Projeto
 
 - Repositório GitHub: [https://github.com/dkrausz/portifolio-kenzie](https://github.com/dkrausz/portifolio-kenzie)
-<!-- - Vercel Page: [https://dkrausz.github.io/control-finance/](https://dkrausz.github.io/control-finance/) -->
+- Vercel Page: [https://m3-s1-entrega-portfolio-template-dkrausz-edwrr4jgj.vercel.app/](https://m3-s1-entrega-portfolio-template-dkrausz-edwrr4jgj.vercel.app/)
 
 ---
 
